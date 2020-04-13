@@ -1,0 +1,49 @@
+body{
+	background-color: #12212f;
+    text-align: center;
+}
+h1{
+	color: #fff;
+}
+
+form {
+		background:#e6e6e6;
+		padding: 10px;
+		width: 680px;
+		margin: auto;
+		box-shadow:0 0 70px -10px #000;
+		border-radius:8px;
+}
+ 
+.inp input
+{     
+	width: 600px;
+	height: 30px;
+    margin:10px 30px;
+    border: none;
+    padding:10px;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid #bebed2;
+
+}
+.inp input:focus
+{
+     border-bottom: 2px solid #78788c;
+}
+.inp input::placeholder{padding-left: 10px; font: italic  bolder 18px cursive;}
+
+#sub
+{   
+	margin: 30px;
+	border: 2px solid #78788c ;
+	width: 50%;
+	height: 40px;
+	color: #78788c;
+}
+#sub:hover
+{
+	background-color: #78788c;
+	color: white;
+
+}

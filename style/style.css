@@ -1,0 +1,153 @@
+body{
+  background-color: #12212f;
+}
+header
+{  
+  background-color: #10171e;
+	height: 120px;
+  border-bottom: 4px solid #293250;
+}
+#elk{ width: 300px; height: 100px; margin: 5px; margin-left: 20px; }
+
+#btn
+{
+	float: right;
+	margin: 40px 100px;
+}
+button {
+	margin-left: 20px;
+	height: 40px;
+	width:  150px;
+	font-family: cursive;
+  border-radius: 5px;
+}
+#btn1{ border: none; background-color: white;  color: #293250;  }
+#btn2{ width: 110px; border: none; background-color: #293250;color: white;   }
+
+#btn1:hover { color: #FFFFFF; background-color: #6dd47e;}
+#btn2:hover{   background-color:#6dd47e ; color: white }
+#btn1:focus{outline: none;}
+#btn2:focus{outline: none;}
+
+
+
+
+nav
+{    
+    height: 70px;
+    margin-bottom: 15px;    
+}
+
+#navi
+{
+  display: flex;	
+  margin: 10px;	
+  list-style: none;  
+}
+
+
+#navi li a
+{    font-size: 18px;
+     display: block;
+     padding: 0 10px;
+     padding-bottom: 13px;
+     text-decoration: none;
+     padding-left: 30px;
+     color: white;
+     font-family: cursive;
+}
+#navi li a:hover {
+	color: #0ba4f9;
+  border-bottom: 2px solid #0ba4f9;
+
+}
+#navi ul  
+{
+  visibility: hidden;
+  list-style: none;
+
+}
+#navi li:hover ul{
+  visibility: visible;
+}
+
+#org{
+  background:#e6e6e6;
+  padding: 10px;
+  width: 1000px;
+  height: 200px;
+  margin: auto;
+  box-shadow:0 0 70px -10px #000;
+  border-radius:8px 
+
+
+}
+#org h1{
+  text-align: center;
+  color: #293250;
+}
+
+#rech{
+  padding: 20px 0px 50px 150px;
+}
+select{
+  height: 50px;
+  margin-right: 10px;
+}
+select #btn1{
+  height: 50px; 
+}
+#sel1{ width: 300px; }
+#sel2{ width: 200px; }
+
+#btn3{  border: none; background-color:#293250 ;  color: white ;  }
+#btn3:hover{ border: none; background-color:white ;  color: #293250 ; }
+
+
+#gal{
+  
+  padding: 10px;
+  height: 450px;
+  margin: 40px 0px;
+  box-shadow:0px 20px 70px -10px #000;
+  border-radius:8px 
+}
+
+#pri{
+  background-color: rd;
+   height: 450px;
+   padding: 10px 20px 10px 2px;
+   margin: 10px;
+}
+
+article{
+  background-color: #ECF0F1;
+  border: 2px solid #293250;
+  border-radius: 5px;
+  display: inline-flex;
+  margin-left: 35px;
+  width: 400px;
+  height: 400px;
+
+box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+article:hover{ 
+ box-shadow: 20px 20px 15px #aaaaaa ;}
+
+#pp{
+  background-color: green;
+  height: 300px;
+  width: 350px;
+  margin: 10px ;
+}
+#photos{
+  width: 370px;
+  height: 320px;
+
+ }
+ h3 {}
+
+footer{
+  background-color: #293250;
+}
